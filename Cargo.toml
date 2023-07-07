@@ -1,0 +1,14 @@
+[package]
+authors = ["Ctaoist <liao9256@163.com>"]
+name = "serde_default"
+description = "Add #[serde(default)] to the every field of struct"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = ">1"}
+quote = "*"
